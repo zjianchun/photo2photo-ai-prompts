@@ -1,0 +1,486 @@
+{
+  "project": "Photo2Photo AI — Image-to-Image Presets & Prompt Recipes",
+  "website": "https://photo2photo.io",
+  "toolsDirectory": "https://photo2photo.io/tools",
+  "pricing": "https://photo2photo.io/pricing",
+  "updatedAt": "2026-11-14",
+  "engines": [
+    {
+      "tier": "Fast",
+      "model": "ByteDance Seedream 5.0 Flash",
+      "credits": 1,
+      "typicalLatencySec": 12
+    },
+    {
+      "tier": "Studio Pro",
+      "model": "FLUX.1 Kontext Pro",
+      "credits": 3,
+      "typicalLatencySec": 22
+    }
+  ],
+  "presets": [
+    {
+      "id": "character-consistency",
+      "name": "Character Consistency",
+      "tagline": "Keep the face & outfit, switch the scene",
+      "defaultStrength": 0.65,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=character-consistency#workbench"
+    },
+    {
+      "id": "sketch-to-realistic",
+      "name": "Sketch to Realistic",
+      "tagline": "Line art / clay model to realistic photo",
+      "defaultStrength": 0.8,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=sketch-to-realistic#workbench"
+    },
+    {
+      "id": "3d-clay",
+      "name": "3D / Clay Style",
+      "tagline": "Photo to 3D blind-box or game asset",
+      "defaultStrength": 0.7,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=3d-clay#workbench"
+    },
+    {
+      "id": "anime-style",
+      "name": "Anime Style",
+      "tagline": "Real photo to high-quality anime",
+      "defaultStrength": 0.7,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=anime-style#workbench"
+    },
+    {
+      "id": "product-background",
+      "name": "Product Background Swap",
+      "tagline": "Studio lighting, clean pedestals & shadow grounding",
+      "defaultStrength": 0.55,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=product-background#workbench"
+    },
+    {
+      "id": "photo-restore",
+      "name": "Old Photo Restore & Colorize",
+      "tagline": "Repair scratches, restore color",
+      "defaultStrength": 0.6,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=photo-restore#workbench"
+    },
+    {
+      "id": "professional-headshot",
+      "name": "Professional Headshot",
+      "tagline": "Selfie to LinkedIn-ready portrait",
+      "defaultStrength": 0.6,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=professional-headshot#workbench"
+    },
+    {
+      "id": "papercraft-3d",
+      "name": "Layered 3D Papercraft",
+      "tagline": "Tactile paper cutouts, shadowbox depth & relief art",
+      "defaultStrength": 0.75,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=papercraft-3d#workbench"
+    },
+    {
+      "id": "photo-diptych",
+      "name": "Photo Remix Diptych",
+      "tagline": "Split-panel comparison poster: photo on top, stylized art below",
+      "defaultStrength": 0.7,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=photo-diptych#workbench"
+    },
+    {
+      "id": "vintage-poster",
+      "name": "Retro Risograph Poster",
+      "tagline": "Vintage screenprint & poetic editorial art",
+      "defaultStrength": 0.75,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=vintage-poster#workbench"
+    },
+    {
+      "id": "editorial-magazine",
+      "name": "Editorial Lifestyle Magazine",
+      "tagline": "Vogue & GQ style cinematic lighting",
+      "defaultStrength": 0.65,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=editorial-magazine#workbench"
+    },
+    {
+      "id": "product-poster-batch",
+      "name": "Product Poster Proposals",
+      "tagline": "One product, 8 poster styles — Amazon & Shopify ready",
+      "defaultStrength": 0.7,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=product-poster-batch#workbench"
+    },
+    {
+      "id": "photo-to-sketch",
+      "name": "Photo to Sketch & Line Art",
+      "tagline": "Turn photos into pencil sketches & ink drawings",
+      "defaultStrength": 0.75,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=photo-to-sketch#workbench"
+    },
+    {
+      "id": "photo-to-coloring-page",
+      "name": "Photo to Coloring Page",
+      "tagline": "Printable pure B&W outlines for kids & adults",
+      "defaultStrength": 0.8,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=photo-to-coloring-page#workbench"
+    },
+    {
+      "id": "ai-outfit-changer",
+      "name": "AI Outfit & Clothes Changer",
+      "tagline": "Virtual outfit try-on with 1:1 facial lock",
+      "defaultStrength": 0.65,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=ai-outfit-changer#workbench"
+    },
+    {
+      "id": "ai-hairstyle-changer",
+      "name": "AI Hairstyle & Color Try-On",
+      "tagline": "Test haircuts, bangs & hair colors on your photo",
+      "defaultStrength": 0.6,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=ai-hairstyle-changer#workbench"
+    },
+    {
+      "id": "anime-to-real-life",
+      "name": "Anime to Real Life AI",
+      "tagline": "2D anime & cartoon characters to real human photos",
+      "defaultStrength": 0.7,
+      "studioLaunchUrl": "https://photo2photo.io/?preset=anime-to-real-life#workbench"
+    }
+  ],
+  "landingPages": [
+    {
+      "slug": "ai-hairstyle-changer",
+      "url": "https://photo2photo.io/ai-hairstyle-changer",
+      "title": "AI Hairstyle Changer Free — Virtual Haircut & Hair Color Simulator",
+      "h1": "AI Hairstyle Changer — Try New Haircuts & Colors on Your Photo",
+      "defaultPreset": "ai-hairstyle-changer",
+      "promptRecipes": [
+        {
+          "styleName": "Big Chop: Long Hair to French Bob",
+          "recommendedStrength": "0.62",
+          "aspectRatio": "1:1 or 3:4",
+          "subScenarioId": "french-bob",
+          "promptFormula": "Chin-length textured Parisian French bob with softly feathered ends and airy see-through bangs, naturally uncovering the collarbones and tank straps.",
+          "proTip": "When cutting from long hair to a bob, the engine automatically reconstructs the uncovered shoulder skin and straps that were previously hidden under long hair."
+        },
+        {
+          "styleName": "Shadow-Root Platinum Balayage",
+          "recommendedStrength": "0.58",
+          "aspectRatio": "1:1",
+          "subScenarioId": "blonde-balayage",
+          "promptFormula": "Honey-platinum blonde balayage preserving subtle darker natural roots for realistic grow-out, soft glossy S-waves, matched eyebrow warmth.",
+          "proTip": "Keeping strength around 0.55–0.60 preserves your exact hair length and wave volume while altering only the dye pigment and shine."
+        },
+        {
+          "styleName": "Korean Wolf Cut & Curtain Fringe",
+          "recommendedStrength": "0.60",
+          "aspectRatio": "3:4",
+          "subScenarioId": "korean-wolf-cut",
+          "promptFormula": "Face-framing Korean wolf cut with airy piecey curtain bangs sweeping past cheekbones, soft crown lift, warm dark espresso with copper hints.",
+          "proTip": "Pull hair slightly behind your ears in your upload selfie if you want cleaner cheekbone visibility under curtain layers."
+        },
+        {
+          "styleName": "Sleek High Editorial Ponytail",
+          "recommendedStrength": "0.65",
+          "aspectRatio": "1:1",
+          "subScenarioId": "sleek-ponytail",
+          "promptFormula": "Cleanly brushed-back sleek high ponytail revealing full ear contours and soft baby hair wisps along the forehead hairline.",
+          "proTip": "Great for checking whether pulled-back updos flatter your jawline before formal events."
+        }
+      ]
+    },
+    {
+      "slug": "ai-image-converter",
+      "url": "https://photo2photo.io/ai-image-converter",
+      "title": "AI Image Converter — Convert Photos to Any Art Style Online | Photo2Photo AI",
+      "h1": "AI Image Converter — Transform Photos into Any Style in Seconds",
+      "defaultPreset": "anime-style",
+      "promptRecipes": []
+    },
+    {
+      "slug": "ai-image-generator-with-image-input",
+      "url": "https://photo2photo.io/ai-image-generator-with-image-input",
+      "title": "AI Image Generator from Image — Reference Photo Input (Free) | Photo2Photo AI",
+      "h1": "AI Image Generator from Image — Multi-Photo Reference Studio",
+      "defaultPreset": "character-consistency",
+      "promptRecipes": []
+    },
+    {
+      "slug": "ai-image-to-image",
+      "url": "https://photo2photo.io/ai-image-to-image",
+      "title": "AI Photo Editor & Image Changer (Free, No Sign Up) | Photo2Photo AI",
+      "h1": "AI Photo Editor & Image Changer — Free Online, No Sign Up",
+      "defaultPreset": "character-consistency",
+      "promptRecipes": []
+    },
+    {
+      "slug": "ai-outfit-changer",
+      "url": "https://photo2photo.io/ai-outfit-changer",
+      "title": "AI Outfit Changer Online Free — Virtual Clothes Try-On (No Sign-Up)",
+      "h1": "AI Outfit Changer — Virtual Clothes Try-On in Seconds",
+      "defaultPreset": "ai-outfit-changer",
+      "promptRecipes": [
+        {
+          "styleName": "Same-Room Streetwear Jacket Swap",
+          "recommendedStrength": "0.62",
+          "aspectRatio": "1:1 or 3:4",
+          "subScenarioId": "tokyo-streetwear",
+          "promptFormula": "Keep the exact room lighting, hair strands, and face untouched. Replace only the top with a heavyweight distressed black leather bomber jacket over a vintage white graphic crewneck tee.",
+          "proTip": "Keep strength near 0.60 when you want the room behind you to stay 100% unchanged while swapping only garments."
+        },
+        {
+          "styleName": "Silk Evening Gown Editorial",
+          "recommendedStrength": "0.70",
+          "aspectRatio": "3:4",
+          "subScenarioId": "evening-gown",
+          "promptFormula": "Ivory bias-cut mulberry silk satin evening dress with thin straps, realistic specular fabric highlights, matched collarbone skin tone, soft warm rim light.",
+          "proTip": "Mention 'matched collarbone skin tone' if swapping from a high-neck sweater to an open neckline so skin continuity stays seamless."
+        },
+        {
+          "styleName": "Old Money Linen & Knit Capsule",
+          "recommendedStrength": "0.64",
+          "aspectRatio": "3:4",
+          "subScenarioId": "old-money-casual",
+          "promptFormula": "Tailored cream European linen collared button-down shirt with an oatmeal cashmere sweater casually knotted over the shoulders, crisp woven linen creases.",
+          "proTip": "Specify fabric weaves like 'woven linen', 'ribbed wool', or 'matte cotton' to prevent synthetic shiny clothing."
+        },
+        {
+          "styleName": "Corporate Blazer Upgrade",
+          "recommendedStrength": "0.68",
+          "aspectRatio": "1:1",
+          "subScenarioId": "executive-suit",
+          "promptFormula": "Double-breasted charcoal wool blazer with crisp structured shoulder pads over a fine-gauge black mock-neck knit, authentic lapel stitching.",
+          "proTip": "Works cleanly on upper-body smartphone photos framed at chest or shoulder level."
+        }
+      ]
+    },
+    {
+      "slug": "ai-product-background",
+      "url": "https://photo2photo.io/ai-product-background",
+      "title": "AI Product Photography — E-Commerce Studio | Photo2Photo",
+      "h1": "AI Product Photography — Commercial E-Commerce Studio",
+      "defaultPreset": "product-background",
+      "promptRecipes": []
+    },
+    {
+      "slug": "anime-to-real-life-ai",
+      "url": "https://photo2photo.io/anime-to-real-life-ai",
+      "title": "Anime to Real Life AI — Turn Anime Characters into Real People Free",
+      "h1": "Anime to Real Life AI — Turn Any Character into a Real Person",
+      "defaultPreset": "anime-to-real-life",
+      "promptRecipes": [
+        {
+          "styleName": "Faithful Live-Action Cosplay (85mm Studio)",
+          "recommendedStrength": "0.68",
+          "aspectRatio": "1:1 or 3:4",
+          "subScenarioId": "cinematic-cosplay",
+          "promptFormula": "Ultra-realistic live-action human portrait preserving exact silver braided hair, navy wool coat, gold embroidered piping, real human eye sclera and visible skin pores.",
+          "proTip": "Around 0.68 keeps costume pins and braid geometry faithful while reshaping overly huge anime eyes into true human orbital spacing."
+        },
+        {
+          "styleName": "Candid 35mm Street Daylight",
+          "recommendedStrength": "0.72",
+          "aspectRatio": "3:4 or 4:3",
+          "subScenarioId": "natural-daylight",
+          "promptFormula": "Unposed candid afternoon street photograph shot on 35mm DSLR, authentic woven cotton, realistic breeze-tousled hair strands, natural daylight grain.",
+          "proTip": "Raise strength slightly toward 0.72 on cel-shaded frames with flat color blocks so grass, clouds, and denim look genuinely photographed."
+        },
+        {
+          "styleName": "Rainy Tokyo Neon Night Still",
+          "recommendedStrength": "0.74",
+          "aspectRatio": "16:9 or 3:4",
+          "subScenarioId": "neon-cyberpunk",
+          "promptFormula": "Cinematic night movie frame with realistic damp hair strands, wet asphalt neon bokeh, subtle skin moisture highlights, anamorphic lens depth.",
+          "proTip": "Ideal for sci-fi, cyberpunk, or action anime characters wearing leather, techwear, or dark coats."
+        },
+        {
+          "styleName": "1990s Analog Film Translation",
+          "recommendedStrength": "0.66",
+          "aspectRatio": "1:1",
+          "subScenarioId": "analog-film",
+          "promptFormula": "Nostalgic 1990s Fujifilm Pro 400H film portrait, natural facial imperfections, subtle warm halation around highlights, understated everyday wardrobe.",
+          "proTip": "Great for slice-of-life anime screenshots that look right at home as vintage Japanese film prints."
+        }
+      ]
+    },
+    {
+      "slug": "consistent-character-ai",
+      "url": "https://photo2photo.io/consistent-character-ai",
+      "title": "Consistent Character AI — Keep Faces Across Scenes | Photo2Photo",
+      "h1": "Consistent Character AI Generator — Same Character, Every Scene",
+      "defaultPreset": "character-consistency",
+      "promptRecipes": []
+    },
+    {
+      "slug": "(home)",
+      "url": "https://photo2photo.io/",
+      "title": "Image to Image AI Generator (Free, No Sign Up) — Photo to Photo AI",
+      "h1": "Image to Image AI Generator — Free Photo to Photo Studio",
+      "defaultPreset": "character-consistency",
+      "promptRecipes": []
+    },
+    {
+      "slug": "image-to-image-ai-free",
+      "url": "https://photo2photo.io/image-to-image-ai-free",
+      "title": "Image to Image AI No Sign Up — Free Online Generator (No Login)",
+      "h1": "Image to Image AI No Sign Up — Free Instant Generator",
+      "defaultPreset": "sketch-to-realistic",
+      "promptRecipes": []
+    },
+    {
+      "slug": "nano-banana-ai",
+      "url": "https://photo2photo.io/nano-banana-ai",
+      "title": "Nano Banana AI — Fast Image Editing, Free | Photo2Photo AI",
+      "h1": "Nano Banana AI — Fast Image Editing, Free to Try",
+      "defaultPreset": "character-consistency",
+      "promptRecipes": []
+    },
+    {
+      "slug": "old-photo-restore",
+      "url": "https://photo2photo.io/old-photo-restore",
+      "title": "Old Photo Restoration AI — Restore & Colorize Photos",
+      "h1": "Old Photo Restoration AI — Restore, Sharpen & Colorize",
+      "defaultPreset": "photo-restore",
+      "promptRecipes": []
+    },
+    {
+      "slug": "photo-to-3d-clay-ai",
+      "url": "https://photo2photo.io/photo-to-3d-clay-ai",
+      "title": "Photo to 3D Clay AI — Blind Box Toy & Claymation Filter Free",
+      "h1": "Photo to 3D Clay AI — Cute Blind-Box & Claymation Toy Filter",
+      "defaultPreset": "3d-clay",
+      "promptRecipes": [
+        {
+          "styleName": "Pop-Style Designer Blind Box Vinyl",
+          "recommendedStrength": "0.70",
+          "aspectRatio": "1:1",
+          "subScenarioId": "blind-box-vinyl",
+          "promptFormula": "Cute Pop-Mart inspired vinyl blind-box figure on circular matte pedestal, subtle satin PVC sheen, big expressive glossy eyes, soft pastel backdrop.",
+          "proTip": "Works amazingly on pet photos and couples—distinct clothing logos simplify naturally into charming painted toy details."
+        },
+        {
+          "styleName": "Handcrafted Stop-Motion Claymation",
+          "recommendedStrength": "0.74",
+          "aspectRatio": "1:1 or 4:3",
+          "subScenarioId": "stop-motion-clay",
+          "promptFormula": "Tactile plasticine claymation character with visible subtle sculptor fingerprints, rounded cozy joints, warm miniature studio set lighting.",
+          "proTip": "Look closely at the cheeks and coat edges—adding 'sculptor fingerprints' gives unmistakable Aardman/Laika stop-motion warmth."
+        },
+        {
+          "styleName": "Needle-Felted Cozy Wool Sculpture",
+          "recommendedStrength": "0.75",
+          "aspectRatio": "1:1",
+          "subScenarioId": "wool-felt-plush",
+          "promptFormula": "Handmade needle-felted wool sculpture with soft fuzzy stray fibers catching golden backlighting, cozy macro tilt-shift blur.",
+          "proTip": "Fantastic for golden retrievers, fluffy cats, and winter sweater selfies."
+        },
+        {
+          "styleName": "Chibi Desk Toy Figurine",
+          "recommendedStrength": "0.72",
+          "aspectRatio": "3:4",
+          "subScenarioId": "chibi-figurine",
+          "promptFormula": "2.5-head-tall chibi figurine with rounded oversized hands, matte polymer clay shading, standing on clean warm oak display stand.",
+          "proTip": "Keep Strength around 0.70–0.74 so stylized oversized heads blend smoothly without losing glasses or hats."
+        }
+      ]
+    },
+    {
+      "slug": "photo-to-anime-ai",
+      "url": "https://photo2photo.io/photo-to-anime-ai",
+      "title": "Photo to Anime AI — Turn Photos into Anime Free | Photo2Photo AI",
+      "h1": "Photo to Anime AI — Turn Any Photo into Anime Free",
+      "defaultPreset": "anime-style",
+      "promptRecipes": []
+    },
+    {
+      "slug": "photo-to-coloring-page",
+      "url": "https://photo2photo.io/photo-to-coloring-page",
+      "title": "Turn Photo into Coloring Page AI — Free Printable Black & White Outlines",
+      "h1": "Turn Any Photo into a Printable Coloring Page",
+      "defaultPreset": "photo-to-coloring-page",
+      "promptRecipes": [
+        {
+          "styleName": "Toddler & Kids Bold Outline (Ages 3–8)",
+          "recommendedStrength": "0.82",
+          "aspectRatio": "3:4 or 4:3",
+          "subScenarioId": "kids-bold-line",
+          "promptFormula": "Thick friendly closed jet-black ink outlines, large open coloring zones, simplified background clutter, 100% pure white paper, zero gray halftone shading.",
+          "proTip": "Use 3:4 portrait or 4:3 landscape so the output fits US Letter (8.5x11) and A4 printer sheets with clean margins."
+        },
+        {
+          "styleName": "Intricate Adult Coloring Architecture",
+          "recommendedStrength": "0.78",
+          "aspectRatio": "1:1 or 3:4",
+          "subScenarioId": "adult-mandala",
+          "promptFormula": "Fine uniform black technical outlines with hollow unfilled lettering, floral leaf contours, and crisp paving geometry on pure solid white.",
+          "proTip": "Choose Studio Pro or export at 2K/4K when converting dense architecture so bricks and petals do not merge together."
+        },
+        {
+          "styleName": "Storybook Family Portrait Line Art",
+          "recommendedStrength": "0.75",
+          "aspectRatio": "1:1",
+          "subScenarioId": "storybook-clean",
+          "promptFormula": "Warm storybook black ink contours capturing genuine smile lines and clothing seams cleanly without harsh black face shadows.",
+          "proTip": "Keep reference strength around 0.75 on human faces—higher values may over-simplify eye likeness."
+        },
+        {
+          "styleName": "Stained Glass Geometric Partition",
+          "recommendedStrength": "0.84",
+          "aspectRatio": "3:4",
+          "subScenarioId": "stained-glass",
+          "promptFormula": "Bold closed geometric mosaic lead-lines framing the main subject on solid #FFFFFF white, ready for bright watercolor markers.",
+          "proTip": "Ideal for photos with messy backgrounds, turning distracting foliage into structured stained-glass panes."
+        }
+      ]
+    },
+    {
+      "slug": "photo-to-sketch",
+      "url": "https://photo2photo.io/photo-to-sketch",
+      "title": "Photo to Sketch AI — Turn Pictures into Pencil Drawings & Line Art",
+      "h1": "Photo to Sketch & Line Art — Turn Pictures into Drawings",
+      "defaultPreset": "photo-to-sketch",
+      "promptRecipes": [
+        {
+          "styleName": "2B & 4B Graphite Portrait",
+          "recommendedStrength": "0.72",
+          "aspectRatio": "1:1 or 3:4",
+          "subScenarioId": "graphite-2b",
+          "promptFormula": "Hand-drawn 2B and 4B graphite pencil portrait on warm cream sketchbook paper, directional diagonal hatching, soft blended shadows, raw pencil grain.",
+          "proTip": "Keep strength between 0.65 and 0.75 on close-up portraits so irises and lip corners stay 100% faithful while paper grain emerges naturally."
+        },
+        {
+          "styleName": "0.3mm Architectural Fineliner",
+          "recommendedStrength": "0.78",
+          "aspectRatio": "4:3 or 1:1",
+          "subScenarioId": "architectural-ink",
+          "promptFormula": "Technical black waterproof fineliner ink drawing on pure white Bristol board, straight architectural edges, subtle foliage stippling, crisp monochrome.",
+          "proTip": "Works best on daytime exterior photos with crisp sunlit shadows; avoid heavy mist so window mullions remain razor sharp."
+        },
+        {
+          "styleName": "Willow Charcoal Fine Art",
+          "recommendedStrength": "0.76",
+          "aspectRatio": "3:4",
+          "subScenarioId": "charcoal-portrait",
+          "promptFormula": "Rich expressive willow charcoal drawing on heavy tooth rag paper, deep velvety shadows, soft tortillon smudges, bright white chalk eye catchlights.",
+          "proTip": "Side-lit photographs produce the strongest chiaroscuro tonal range when rendered in charcoal."
+        },
+        {
+          "styleName": "Minimalist Continuous Line Art",
+          "recommendedStrength": "0.82",
+          "aspectRatio": "1:1",
+          "subScenarioId": "minimal-oneline",
+          "promptFormula": "Modern single-weight jet-black ink contour line art on bright white background, zero shading gradients, clean editorial illustration.",
+          "proTip": "Push strength to 0.80+ when converting cluttered backgrounds into ultra-clean vector-like contours."
+        }
+      ]
+    },
+    {
+      "slug": "professional-headshot-ai",
+      "url": "https://photo2photo.io/professional-headshot-ai",
+      "title": "AI Headshot Generator — Selfie to Business Portrait | Photo2Photo",
+      "h1": "AI Headshot Generator — Your Selfie, Now a Professional Headshot",
+      "defaultPreset": "professional-headshot",
+      "promptRecipes": []
+    },
+    {
+      "slug": "sketch-to-image-ai",
+      "url": "https://photo2photo.io/sketch-to-image-ai",
+      "title": "Sketch to Image AI — Drawing to Realistic Photo | Photo2Photo AI",
+      "h1": "Sketch to Image AI — Turn Drawings into Realistic Photos",
+      "defaultPreset": "sketch-to-realistic",
+      "promptRecipes": []
+    }
+  ]
+}
